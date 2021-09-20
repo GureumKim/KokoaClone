@@ -1,0 +1,69 @@
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin-right: 26px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: var(--color-grey);
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 27px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-component__title--not-bold {
+  font-weight: 500;
+}
+.user-component__column:last-child {
+  color: var(--color-grey);
+}
+.user-component__column_chats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+.user-component__text h6 {
+  position: relative;
+}
+.exclamation-icon-circle {
+  color: tomato;
+  position: absolute;
+  right: -23px;
+  top: 0.8px;
+}
+.exclamation-icon {
+  color: tomato;
+  position: absolute;
+  right: -16.4px;
+  top: 2.3px;
+  font-size: 13px;
+  font-weight: 600;
+}
